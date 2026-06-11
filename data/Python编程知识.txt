@@ -1,0 +1,63 @@
+Python 编程语言基础知识
+
+一、Python 简介
+
+Python 是一种解释型、面向对象的高级编程语言，由 Guido van Rossum 于 1991 年首次发布。Python 以简洁清晰的语法和强大的标准库著称，被广泛应用于 Web 开发、数据科学、人工智能、自动化运维等领域。
+
+主要特点：
+1. 语法简洁易读：使用缩进来定义代码块，代码可读性高
+2. 动态类型：变量不需要声明类型，运行时自动推断
+3. 丰富的第三方库：PyPI 上有超过 40 万个包
+4. 跨平台：支持 Windows、Linux、macOS 等主流操作系统
+5. 解释型语言：无需编译，直接运行源代码
+
+二、基本数据类型
+
+1. 整数（int）：任意精度的整数，如 42, -10, 0
+2. 浮点数（float）：双精度浮点数，如 3.14, -0.5
+3. 字符串（str）：不可变的 Unicode 字符序列，如 "Hello", '世界'
+4. 布尔值（bool）：True 或 False
+5. 列表（list）：可变的有序集合，如 [1, 2, 3]
+6. 元组（tuple）：不可变的有序集合，如 (1, 2, 3)
+7. 字典（dict）：键值对集合，如 {"name": "Alice", "age": 25}
+8. 集合（set）：无序不重复元素的集合，如 {1, 2, 3}
+
+三、常用库和框架
+
+Web 开发：
+- Django：全栈 Web 框架，遵循"电池已包含"理念
+- Flask：轻量级 Web 框架，灵活可扩展
+- FastAPI：现代高性能 Web 框架，支持异步处理和自动 API 文档
+
+数据科学：
+- NumPy：科学计算基础库，提供高效的多维数组操作
+- Pandas：数据分析和处理库，提供 DataFrame 数据结构
+- Matplotlib：数据可视化库，用于创建各种图表
+- Scikit-learn：机器学习库，提供分类、回归、聚类等算法
+
+深度学习：
+- TensorFlow：Google 开发的开源深度学习框架
+- PyTorch：Facebook 开发的深度学习框架，动态计算图
+- Hugging Face Transformers：预训练模型库，提供 BERT、GPT 等模型
+
+自然语言处理：
+- NLTK：自然语言处理工具包
+- spaCy：工业级自然语言处理库
+- jieba：中文分词工具
+- sentence-transformers：句子嵌入模型
+
+网络爬虫：
+- Requests：HTTP 请求库
+- Scrapy：爬虫框架
+- BeautifulSoup：HTML/XML 解析库
+
+四、Python 最佳实践
+
+1. 遵循 PEP 8 代码风格规范
+2. 使用虚拟环境（venv 或 conda）管理项目依赖
+3. 编写类型注解提高代码可读性
+4. 使用列表推导式和生成器表达式简化代码
+5. 合理使用异常处理（try/except）
+6. 编写单元测试（unittest 或 pytest）
+7. 使用 with 语句管理资源
+8. 避免使用可变对象作为默认参数
